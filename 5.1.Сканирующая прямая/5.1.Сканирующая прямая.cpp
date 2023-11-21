@@ -1,4 +1,5 @@
-﻿#include <iostream>
+﻿// https://ru.algorithmica.org/cs/decomposition/scanline/
+#include <iostream>
 #include <fstream>
 #include <vector>
 #include <utility>
@@ -118,7 +119,6 @@ int main()
     }
     cout << scanline(segments) << "\n";
     cout << findSumLegth(segments) << "\n";
-
 
     fstream fcin2("input2.txt");
     int m;
